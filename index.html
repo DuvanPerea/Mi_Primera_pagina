@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Duvan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2 class="arriba">Mi presentación</h2>
+    </header>
+    <h1>Duvan Andres Perea Lozano</h1>
+    <p>Soy alguien de las lejanias de Medellín, de un pueblo pequeño llamado Puerto Perales. Decidí venir a la ciudad debido a que entré a la Universidad Nacional en la carrera de Ciencias de la Computación. Ingresé al SENA debido a la cantidad de paros que sufría la universidad en el tiempo que estuve. Mis familiares me ayudan con la alimentación y la estancia en la ciudad, aunque poseía un trabajo a medio tiempo que me ayudaba a solventar salidas o cosas extras que necesitara. Vivo solo en un cuarto en La Iguaná, y espero poder sacar adelante esta tecnología.
+    </p>
+    <div class="adivina">
+        <label for="entrada">Adivina Mi Numero Favorito</label>
+        <input type="number" id="entrada" placeholder="Del rango 1 hasta 100">
+        <p id="respuestaNumero"></p>
+    </div>
+    <div>
+        <section class="seccion-gustos">
+            <select  id="transporte">
+                <option value="selecione">selecione</option>
+                <option value="patinaje">Patinaje</option>
+                <option value="taekwondo">Taekwondo</option>
+                <option value="tecno">Tecno</option>
+            </select>
+            <p id="respuesta"></p>
+
+            <div class="imagen1" >
+                <img  id="imagengusto"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWLZcRBiPgu9qdXzicIFhtDOoFJlwzDcfT0HuWjFlRg&s=10" alt="selecione" style="display: none;">
+            </div>
+        </section>
+        
+    </div>
+    <button id="boton">Presionar Deimer</button>
+    <script src="js/app.js"></script>
+    <footer>
+        <p>&copy; 2026 Mi BLog| Términos | Privacidad | Redes sociales</p>
+    </footer>
+</body>
+</html>
